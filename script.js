@@ -219,7 +219,7 @@ var AboveALICE = [
 ];
 
 var ctx = document.getElementById("myChart");
-var stackedBar = new Chart(ctx, {
+var myChart = new Chart(ctx, {
   type: "horizontalBar",
   data: {
     labels: State,
@@ -282,7 +282,7 @@ var stateCount = [
   1007671
 ];
 var ctx = document.getElementById("fireChart");
-var myChart = new Chart(ctx, {
+var fireChart = new Chart(ctx, {
   type: "bar",
   data: {
     labels: topStates,
@@ -323,7 +323,7 @@ var countyCount = [
   212697
 ];
 var ctx = document.getElementById("iceChart");
-var myChart = new Chart(ctx, {
+var iceChart = new Chart(ctx, {
   type: "bar",
   data: {
     labels: topCounties,
