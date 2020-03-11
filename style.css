@@ -45,8 +45,8 @@ body {
 #twobars {
   width: 40%;
   margin: 0px, -200px, 0px, 200px;
-  margin-left: 175px;
-  margin-right: -175px;
+  margin-left: 125px;
+  margin-right: -125px;
   text-align: left;
   float: left;
 }
@@ -54,8 +54,8 @@ body {
 #threebars {
   width: 40%;
   margin: 0px, 200px, 0px, -200px;
-  margin-left: -175px;
-  margin-right: 175px;
+  margin-left: -125px;
+  margin-right: 125px;
   text-align: left;
   float: right;
 }
