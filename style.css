@@ -1,0 +1,84 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#state {
+  height: 40%;
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#county {
+  height: 40%;
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#zip {
+  height: 40%;
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#comparison {
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#twobars {
+  width: 40%;
+  margin: 0px, -200px, 0px, 200px;
+  margin-left: 200px;
+  margin-right: -200px;
+  text-align: left;
+  float: left;
+}
+
+#threebars {
+  width: 40%;
+  margin: 0px, 200px, 0px, -200px;
+  margin-left: -200px;
+  margin-right: 200px;
+  text-align: left;
+  float: right;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 2em;
+  margin: 0 0 0.1em 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.2em;
+  margin: 0 0 50px;
+  color: #999;
+}
+
+a {
+  margin-top: 50px;
+  display: block;
+  color: #3e95cd;
+}
+
+canvas {
+  margin-bottom: 20px;
+}

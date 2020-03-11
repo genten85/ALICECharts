@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <title>Project ALICE, National Comparisons</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://unpkg.com/jquery@3.4.1/dist/jquery.js"
+      crossorigin=""
+    ></script>
+
+    <!-- Leaflet - Internally Sourced -->
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900"
+      rel="stylesheet"
+    />
+
+    <!-- Webpage CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- myChart files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./myChart.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>ALICE: A NEW LENS FOR FINANCIAL HARDSHIP</h1>
+      <h2>
+        This effort provides a framework, language, and tools to measure and
+        understand the struggles of the growing number of households in our
+        communities that do not earn enough to afford basic necessities, a
+        population called ALICE (Asset Limited, Income Constrained,
+        Employed).<br />
+
+        Scroll down to view the percent of households in each state, county, and
+        zip code boundary that lived below the ALICE Threshold in 2017. The
+        ALICE Threshold is the bare-minimum economic survival level that is
+        based on the local cost of living in each area.<br />
+      </h2>
+    </div>
+    <div class="title"><h1>State Level Details</h1></div>
+    <div id="state">
+      <script src="State.js"></script>
+    </div>
+    <div class="title"><h1>County Level Details</h1></div>
+    <div id="county">
+      <script src="County.js"></script>
+    </div>
+    <div class="title"><h1>Zip Level Details</h1></div>
+    <div id="zip">
+      <script src="Zip.js"></script>
+    </div>
+    <div class="title">
+      <h1>Comparison</h1>
+    </div>
+    <div id="comparison">
+      <canvas id="myChart" width="2400" height="1600"></canvas>
+      <script src="script.js"></script>
+    </div>
+    <div id="twobars">
+      <h6>Top ten states with the highest ALICE familiy counts</h6>
+      <canvas id="fireChart"></canvas>
+      <script src="script.js"></script>
+    </div>
+    <div id="threebars">
+      <h6>Top ten counties with the highest ALICE familiy counts</h6>
+      <canvas id="iceChart"></canvas>
+      <script src="script.js"></script>
+    </div>
+  </body>
+  <!-- Thanks to Tobias Ahlin, whose chart.js tutorial forms the basis of the line graph portion of this exercise -->
+</html>
