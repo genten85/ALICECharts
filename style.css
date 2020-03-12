@@ -82,3 +82,9 @@ a {
 canvas {
   margin-bottom: 20px;
 }
+
+.footer {
+  margin-top: 600px;
+  text-align: center;
+  width: 100%;
+}
